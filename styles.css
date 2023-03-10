@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 50%;
+    margin: auto;
+}
+
+fieldset {
+    background-color: gold;
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 5px;
+    border-color: black;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+input,
+textarea {
+    border-radius: 3px;
+    border-width: 1px;
+    background-color: rgb(96, 237, 237);
+
+}
+
+input:focus {
+    background-color: aquamarine;
+}
+
+input[type="file"] {
+    background-color: inherit;
+}
+
+container {
+    display: flex;
+    flex-direction: 3px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: 3px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+fieldset.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
