@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://api.time.com/wp-content/uploads/2022/02/GettyImages-584046224.jpg);
+    background-repeat: repeat-x;
+}
+
+.master-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 80%;
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.item {
+    border: 2px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+p {
+    text-align: justify;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
