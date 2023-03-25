@@ -1,0 +1,10 @@
+.col-6 {
+    border-color: black;
+    border-width: 3px;
+    border-style: ridge;
+    background-color: beige;
+}
+
+.container {
+    margin-top: 65px;
+}
